@@ -21,7 +21,11 @@ jobs:
           user: leo01102
           template: classic
           base: header, activity, community, repositories, metadata
+          
+          config_cache: no
+          config_output: svg
           config_timezone: America/Buenos_Aires
+          config_debug: yes
           
           plugin_achievements: yes
           plugin_achievements_display: detailed
